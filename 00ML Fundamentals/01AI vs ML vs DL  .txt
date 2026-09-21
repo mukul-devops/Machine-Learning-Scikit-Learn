@@ -1,0 +1,76 @@
+AI vs ML vs Deep Learning
+
+    The relationship is:
+
+    Artificial Intelligence
+    │
+    ├── Machine Learning
+    │   │
+    │   ├── Classical ML
+    │   │   ├── Linear Regression
+    │   │   ├── Logistic Regression
+    │   │   ├── Decision Trees
+    │   │   ├── Random Forest
+    │   │   ├── SVM
+    │   │   └── XGBoost
+    │   │
+    │   └── Deep Learning
+    │       ├── Neural Networks
+    │       ├── CNN
+    │       ├── RNN
+    │       ├── Transformers
+    │       └── LLMs
+    │
+    └── Other AI approaches
+
+
+- Artificial Intelligence: AI is the broadest concept.
+        The goal is to create systems capable of performing tasks that normally require intelligent decision-making.
+        Systems that mimic human intelligence (speech recognition, vision, reasoning).
+        Examples:recommendation systems, autonomous systems, speech recognition, computer vision,reasoning, 
+        planning, language understanding. 
+        
+        
+- Machine Learning: Machine Learning is a subset of AI.
+        Instead of explicitly programming every rule, we allow a model to learn patterns from data.
+
+        Traditional programming:
+            Rules + Data
+                ↓
+              Program
+                ↓
+              Output
+
+        Machine Learning:
+        Data + Correct Outputs
+                ↓
+            Algorithm
+                ↓
+              Model
+                ↓
+            New Prediction
+
+        For example, instead of manually writing:
+        if income > 50000:
+            approve()
+
+        we provide historical loan applications:
+        Income | Age | Credit Score | Loan Approved
+        ------------------------------------------------
+        30000  | 25  | 620          | No
+        70000  | 35  | 750          | Yes
+        ...
+        The model learns relationships from the data.
+
+
+- Deep Learning: Deep Learning is a subset of Machine Learning based primarily on neural networks with multiple layers.
+        Deep Learning :
+
+           Raw Data
+              ↓
+         Neural Network
+              ↓
+         Learned Representations
+              ↓
+           Prediction
+        

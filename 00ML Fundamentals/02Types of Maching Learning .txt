@@ -1,0 +1,57 @@
+Types of Machine Learning - 
+
+1. Supervised Learning: Ideal for tasks with labeled data where the desired output is known.
+        We have:
+            X → Features
+            y → Known target
+
+        The model learns: f(X)→y
+        
+        Examples: Regression
+                  Predict house price:
+                  Features → Price
+
+                 Classification
+                 Predict whether a customer will churn:
+                 Features → Churn / No Churn
+
+
+2. Unsupervised Learning: Suitable for identifying patterns in unlabeled data without explicit guidance.
+        There is no known target.
+        X → Model → Hidden structure
+
+    Example:
+        Customer data
+            ↓
+        Clustering
+            ↓
+        Customer groups
+
+    Algorithms include: K-Means, DBSCAN, Hierarchical Clustering, Gaussian Mixture Models, PCA.
+
+
+3. Semi-Supervised Learning: Few labeled + many unlabeled samples.
+
+        A combination:
+        Small amount of labeled data
+        +
+        Large amount of unlabeled data
+
+        Useful when labeling data is expensive.
+        For example:1,000 labeled images+100,000 unlabeled images
+    
+        
+4. Self-Supervised Learning: Model generates its own labels (foundation of modern LLMs).
+        This is extremely important for modern AI.
+        The system creates a learning signal from the data itself.
+
+        For example, language models can learn by predicting missing/next tokens:
+        "The cat sat on the ___"
+                             ↓
+                           "mat"
+        This is one of the foundations behind modern large language models.   
+
+
+5. Reinforcement Learning: Best for training agents to make decisions through interaction with an environment.
+        Agent learns by interacting with environment (games, robotics).
+
